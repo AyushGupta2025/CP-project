@@ -102,7 +102,7 @@ function useAIRecommendations(slots: ParkingSlot[]) {
 // ─── Main Component ──────────────────────────────────────────────────────────
 export default function InjectorView({ slots, setSlots, setLogs, backendOnline, apiUrl }: InjectorViewProps) {
   const [activeTab, setActiveTab] = useState<'ai' | 'faults'>('ai');
-  const [tick, setTick] = useState(0);
+  const [, setTick] = useState(0);
   const ai = useAIRecommendations(slots);
 
   // Re-run AI every 10s to update durations

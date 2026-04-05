@@ -1,4 +1,3 @@
-import React from 'react';
 import { LogEntry } from '../types';
 import { Database, Lock, AlertTriangle, ArrowRight, ArrowLeft } from 'lucide-react';
 

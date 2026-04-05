@@ -1,4 +1,3 @@
-import React from 'react';
 import { ParkingSlot, TelemetryDataPoint } from '../types';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Cpu, Zap, Thermometer, Clock } from 'lucide-react';
